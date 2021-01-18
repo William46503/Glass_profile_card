@@ -1,0 +1,33 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background: -webkit-gradient(linear, left bottom, right top, from(#0093e9), color-stop(60%, #80d0c7));
+  background: linear-gradient(to right top, #0093e9 0%, #80d0c7 60%);
+}
+
+main .glass {
+  height: 80%;
+  width: 60%;
+  border-radius: 2rem;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(90, 92, 106, 0.8)), color-stop(60%, rgba(32, 45, 58, 0.3)));
+  background: linear-gradient(to right bottom, rgba(90, 92, 106, 0.8) 0%, rgba(32, 45, 58, 0.3) 60%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
